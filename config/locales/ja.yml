@@ -2,5 +2,12 @@ ja:
   activerecord:
     attributes:
       user:
+        name: 名前
         nickname: ニックネーム
-	      birthday: 誕生日
+    errors:
+      models:
+        user:
+          attributes:
+            nickname:
+              format: "%{attribute}: %{message}"
+              blank: 未入力
