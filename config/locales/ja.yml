@@ -1,0 +1,13 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        name: 名前
+        nickname: ニックネーム
+    errors:
+      models:
+        user:
+          attributes:
+            nickname:
+              format: "%{attribute}: %{message}"
+              blank: 未入力
